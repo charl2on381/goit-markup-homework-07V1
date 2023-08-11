@@ -183,15 +183,21 @@
                     <ul class="what-we-do-list list">
 
                         <li class="what-we-do-item">
-                        <img src="images/what-we-do-1.jpg" alt="What We Do Image1" width="360" height="300">
+                        <!-- <img src="images/what-we-do-1.jpg" alt="What We Do Image1" width="360" height="300"> -->
+                        <img class="img-card" srcset="./images/img1.jpg 1x, ./images/img1@2x.jpg 2x" src="./images/img1.jpg" alt="monitor"
+                            width="360" />
                         </li>
 
                         <li class="what-we-do-item">
-                        <img src="images/what-we-do-2.jpg" alt="What We Do Image2" width="360" height="300">
+                        <!-- <img src="images/what-we-do-2.jpg" alt="What We Do Image2" width="360" height="300"> -->
+                        <img class="img-card" srcset="./images/img2.jpg 1x, ./images/img2@2x.jpg 2x" src="./images/img2.jpg" alt="smartphone"
+                            width="360" />
                         </li>
 
                         <li class="what-we-do-item">
-                        <img src="images/what-we-do-3.jpg" alt="What We Do Image3" width="360" height="300">
+                        <!-- <img src="images/what-we-do-3.jpg" alt="What We Do Image3" width="360" height="300"> -->
+                        <img class="img-card" srcset="./images/img3.jpg 1x, ./images/img3@2x.jpg 2x" src="./images/img3.jpg"
+                            alt="smartphone in hand" width="360" />
                         </li>
                     </ul>
 
@@ -219,7 +225,9 @@
                                    
                     <li class="team-item">
                         <div class="team-cover-wrap">
-                            <img src="images/team-1.jpg" alt="Mark Guerrero" width="264" height="260">
+                            <!-- <img src="images/team-1.jpg" alt="Mark Guerrero" width="264" height="260"> -->
+                            <img class="img-card" srcset="./images/img4.jpg 1x, ./images/img4@2x.jpg 2x" src="./images/img4.jpg" alt="Mark Guerrero"
+                                width="264" />
                         <p class="team-cover-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia, vel.
                             Adipisci quidem enim quas necessitatibus veniam natus quaerat laborum molestiae!
                         </p>
@@ -273,7 +281,9 @@
                     <li class="team-item">
 
                         <div class="team-cover-wrap">
-                            <img src="images/team-2.jpg" alt="Tom Ford" width="264" height="260">
+                            <!-- <img src="images/team-2.jpg" alt="Tom Ford" width="264" height="260"> -->
+                            <img class="img-card" src="./images/img5.jpg" srcset="./images/img5.jpg 1x, ./images/img5@2x.jpg 2x" alt="Tom Ford"
+                                width="264" />
                         <p class="team-cover-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia, vel.
                             Adipisci quidem enim quas necessitatibus veniam natus quaerat laborum molestiae!
                         </p>
@@ -326,7 +336,9 @@
 
                     <li class="team-item">
                             <div class="team-cover-wrap">
-                            <img src="images/team-3.jpg" alt="Camila Garcia" width="264" height="260">
+                            <!-- <img src="images/team-3.jpg" alt="Camila Garcia" width="264" height="260"> -->
+                            <img class="img-card" srcset="./images/img6.jpg 1x, ./images/img6@2x.jpg 2x" src="./images/img6.jpg" alt="Camila Garcia"
+                                width="264" />
                             <p class="team-cover-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia, vel. 
                                 Adipisci quidem enim quas necessitatibus veniam natus quaerat laborum molestiae!
                             </p>
@@ -379,7 +391,9 @@
 
                     <li class="team-item">
                         <div class="team-cover-wrap">
-                            <img src="images/team-4.jpg" alt="Daniel Wilson" width="264" height="260">
+                            <!-- <img src="images/team-4.jpg" alt="Daniel Wilson" width="264" height="260"> -->
+                            <img class="img-card" srcset="./images/img7.jpg 1x, ./images/img7@2x.jpg 2x" src="./images/img7.jpg" alt="Daniel Wilson"
+                                width="264" />
                         <p class="team-cover-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia, vel.
                             Adipisci quidem enim quas necessitatibus veniam natus quaerat laborum molestiae!
                         </p>
@@ -701,6 +715,126 @@
         </div>
         <button type="submit" class="modal-button">Send</button>
         </form>
+    </div>
+</div>
+
+<div class="menu-container js-menu-container" id="mobile-menu">
+    <button class="backdrop-button js-close-menu">
+        <svg class="modal-icon" width="8" height="8">
+            <use href="./images/icons.svg#icon-close"></use>
+        </svg>
+    </button>
+
+    <ul class="list mobile-menu">
+        <li>
+            <a class="mobile-nav current-mobi link" href="./index.html">Studio</a>
+        </li>
+        <li>
+            <a class="mobile-nav link" href="./portfolio.html">Portfolio</a>
+        </li>
+        <li><a class="mobile-nav link" href="./contacts.html">Contacts</a></li>
+    </ul>
+    <div>
+        <address class="">
+            <ul class="list mobile-contacts">
+                <li>
+                    <a class="mobi-link-tel link" href="tel:+110001111111">+11 (000) 111-11-11</a>
+                </li>
+                <li>
+                    <a class="mobi-link link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                </li>
+            </ul>
+        </address>
+        <ul class="list mobile-social-icon">
+            <li class="social-list">
+                <a class="social-link" href="" target="_blank">
+                    <svg class="social-icon" width="16" height="16">
+                        <use href="./images/icons.svg#icon-instagram"></use>
+                    </svg>
+                </a>
+            </li>
+            <li class="social-list">
+                <a class="social-link" href="" target="_blank">
+                    <svg class="social-icon" width="16" height="16">
+                        <use href="./images/icons.svg#icon-twitter"></use>
+                    </svg>
+                </a>
+            </li>
+            <li class="social-list">
+                <a class="social-link" href="" target="_blank">
+                    <svg class="social-icon" width="16" height="16">
+                        <use href="./images/icons.svg#icon-facebook"></use>
+                    </svg>
+                </a>
+            </li>
+            <li class="social-list">
+                <a class="social-link" href="" target="_blank">
+                    <svg class="social-icon" width="16" height="16">
+                        <use href="./images/icons.svg#icon-linkedin"></use>
+                    </svg>
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>
+
+<div class="menu-container js-menu-container" id="mobile-menu">
+    <button class="backdrop-button js-close-menu">
+        <svg class="modal-icon" width="8" height="8">
+            <use href="./images/icons.svg#icon-close"></use>
+        </svg>
+    </button>
+
+    <ul class="list mobile-menu">
+        <li>
+            <a class="mobile-nav current-mobi link" href="./index.html">Studio</a>
+        </li>
+        <li>
+            <a class="mobile-nav link" href="./portfolio.html">Portfolio</a>
+        </li>
+        <li><a class="mobile-nav link" href="./contacts.html">Contacts</a></li>
+    </ul>
+    <div>
+        <address class="">
+            <ul class="list mobile-contacts">
+                <li>
+                    <a class="mobi-link-tel link" href="tel:+110001111111">+11 (000) 111-11-11</a>
+                </li>
+                <li>
+                    <a class="mobi-link link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                </li>
+            </ul>
+        </address>
+        <ul class="list mobile-social-icon">
+            <li class="social-list">
+                <a class="social-link" href="" target="_blank">
+                    <svg class="social-icon" width="16" height="16">
+                        <use href="./images/icons.svg#icon-instagram"></use>
+                    </svg>
+                </a>
+            </li>
+            <li class="social-list">
+                <a class="social-link" href="" target="_blank">
+                    <svg class="social-icon" width="16" height="16">
+                        <use href="./images/icons.svg#icon-twitter"></use>
+                    </svg>
+                </a>
+            </li>
+            <li class="social-list">
+                <a class="social-link" href="" target="_blank">
+                    <svg class="social-icon" width="16" height="16">
+                        <use href="./images/icons.svg#icon-facebook"></use>
+                    </svg>
+                </a>
+            </li>
+            <li class="social-list">
+                <a class="social-link" href="" target="_blank">
+                    <svg class="social-icon" width="16" height="16">
+                        <use href="./images/icons.svg#icon-linkedin"></use>
+                    </svg>
+                </a>
+            </li>
+        </ul>
     </div>
 </div>
 
